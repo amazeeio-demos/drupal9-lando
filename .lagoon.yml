@@ -1,6 +1,6 @@
 docker-compose-yaml: docker-compose.yml
 
-project: drupal9-example-simple
+project: drupal9-lando
 
 tasks:
 #   pre-rollout:
@@ -27,7 +27,7 @@ tasks:
 
 
 environments:
-  9.x:
+  main:
     # routes:
     cronjobs:
       - name: drush cron
