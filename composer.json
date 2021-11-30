@@ -1,12 +1,13 @@
 {
-    "name": "amazeeio/drupal-project",
-    "description": "Project template for Drupal 8 projects with composer hosted on amazee.io",
+    "name": "lagoon-examples/drupal9-lando",
+    "description": "Project template for Drupal 9 projects with MariaDB, hosted on Lagoon",
     "type": "project",
-    "license": "GPL-2.0+",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
-            "name": "Michael Schmid michael@amazee.io",
-            "role": "CTO"
+            "name": "The Lagoon Authors",
+            "homepage": "https://github.com/uselagoon",
+            "email": "uselagoon@amazee.io"
         }
     ],
     "repositories": [
@@ -16,17 +17,17 @@
         }
     ],
     "require": {
-        "amazeeio/drupal_integrations": "0.3.2",
-        "composer/installers": "1.9.0",
-        "cweagans/composer-patches": "1.6.7",
-        "drupal/core-project-message": "9.0.6",
-        "drupal/core-recommended": "9.0.6",
+        "amazeeio/drupal_integrations": "0.3.6",
+        "composer/installers": "2.0.1",
+        "cweagans/composer-patches": "1.7.1",
+        "drupal/core-project-message": "9.2.10",
+        "drupal/core-recommended": "9.2.10",
         "drupal/lagoon_logs": "1.1.0",
-        "drush/drush": "10.3.0",
-        "zaporylie/composer-drupal-optimizations": "1.1.2"
+        "drush/drush": "10.6.1",
+        "zaporylie/composer-drupal-optimizations": "1.2.0"
     },
     "require-dev": {
-        "drupal/core-dev-pinned": "9.0.6"
+        "drupal/core-dev-pinned": "9.2.10"
     },
     "conflict": {
         "drupal/drupal": "*"
